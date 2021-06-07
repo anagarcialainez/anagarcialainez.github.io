@@ -1,0 +1,107 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: "Verdana", "Optima", "sans-serif", "Helvetica";
+    font-size:62.5%;
+    background-image: url("img/pared.png");
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.header {
+    background: black;
+    display: flex;
+    height: 60px;
+    justify-content: end;
+    align-items:center;
+    padding: 0 30px;
+    box-shadow: 0 10px 10px -6px #999999;
+}
+.barra{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.puntero {
+    font-family: "Verdana", "Optima", "sans-serif", "Helvetica";
+    color: #FFF;
+    text-decoration: none;
+    padding: 21px 5px;
+    font-size: 20px;
+}
+.puntero:hover {
+    background-color: white;
+    color: black;
+}
+.boton {
+    font-size: 15px;
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.boton a {
+    text-decoration: none;
+    padding: 18px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFF;
+}
+
+.container {
+
+
+    width: 100%;
+    font-family: "Verdana", "sans-serif", "Optima", "sans-serif", "Helvetica", "Brush Script MT";
+    font-size: 6em;
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.name{
+    font-family: "Brush Script MT", "sans-serif", "Verdana", "Optima", "sans-serif", "Helvetica";
+    font-size: 2em;
+}
+.cargo{
+    font-size: 0.5em;
+}
+
+.foto {
+    overflow: hidden;
+    border-radius: 10%;
+    margin: 0 30px;
+    display: block;
+    float: left;
+}
+aside {
+    display: table-row;
+    margin: 0 auto;
+    min-height: 200px;
+    padding: 3em 0;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+
+@media (max-width: 414px) {
+    .foto {
+        border-radius: 15px;
+    }
+}
+
+.gitlogo {
+    width: 30px;
+    height: 30px;
+}
+.logolink1 {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 2px;
+
+}
